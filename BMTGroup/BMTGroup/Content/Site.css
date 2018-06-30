@@ -1,5 +1,6 @@
 ﻿body {
     padding-top: 50px;
+    height: 100%;
     padding-bottom: 20px;
 }
 
@@ -21,4 +22,78 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.selection{
+    border-top : solid;
+    border-top-width : 20px;
+    border-color : aquamarine;
+    width : 100%;
+}
+
+.parallax1 {
+    height:50px;
+    /* The image used */
+    background-image: url('Images/amsterdam.jpg'); /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    height: 50px;
+    /* The image used */
+    background-image: url('Images/corporate.jpg'); /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    height: 50px;
+    /* The image used */
+    background-image: url('Images/corporate2.jpg'); /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    height: 50px;
+    /* The image used */
+    background-image: url('Images/norbert.jpg'); /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    height: 50px;
+    /* The image used */
+    background-image: url('Images/town.jpg'); /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
