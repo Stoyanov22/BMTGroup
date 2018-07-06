@@ -2,6 +2,8 @@
     padding-top: 50px;
     height: 100%;
     padding-bottom: 20px;
+    background-color: #E9E5E8;
+    color: #A6A281;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -24,11 +26,11 @@ textarea {
     max-width: 280px;
 }
 
-.selection{
-    border-top : solid;
-    border-top-width : 20px;
-    border-color : aquamarine;
-    width : 100%;
+.selection {
+    border-top: solid;
+    border-top-width: 20px;
+    border-color: #9DC4B6;
+    width: 100%;
 }
 
 .parallax1 {
@@ -91,9 +93,7 @@ textarea {
     background-size: cover;
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+.logo{
+    height : 30%;
+    width : 30%;
 }

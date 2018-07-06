@@ -155,6 +155,7 @@
     <Content Include="Content\Images\corporate.jpg" />
     <Content Include="Content\Images\corporate2.jpg" />
     <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\norbert.jpg" />
     <Content Include="Content\Images\town.jpg" />
     <Content Include="favicon.ico" />
