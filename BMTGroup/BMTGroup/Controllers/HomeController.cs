@@ -30,7 +30,7 @@ namespace BMTGroup.Controllers
             message.To.Add(new MailAddress("iliyan.stoyanov.22@gmail.com"));  // replace with receiver's email id  
             message.From = new MailAddress("iliyan.stoyanov.22@gmail.com");  // replace with sender's email id 
             message.Subject = "Message From" + email;
-            message.Body = "Name: " + name + "\nFrom: " + email + "\nPhone: " + phone + "\n" + messages;
+            message.Body = "<h2>Name: " + name + "</h2><h2>From: " + email + "</h2><h2>Phone: " + phone + "</h2><br><h4>" + messages + "</h4>";
             message.IsBodyHtml = true;
             using (var smtp = new SmtpClient())
             {

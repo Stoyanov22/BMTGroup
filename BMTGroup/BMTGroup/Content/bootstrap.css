@@ -30,7 +30,9 @@ footer,
 header,
 hgroup,
 main,
-nav,
+nav {
+    font-family:Praetoria;
+},
 section,
 summary {
   display: block;
@@ -517,6 +519,9 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  font-family:Praetoria;
+  font-weight : bold;
+
 }
 
 h3,

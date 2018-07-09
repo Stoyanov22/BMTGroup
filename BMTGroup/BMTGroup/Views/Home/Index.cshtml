@@ -1,5 +1,5 @@
 ﻿<div class="jumbotron selection" id="home">
-    <img border="0" src="~/Content/Images/logo.png" class="logo">
+    <img border="0" src="~/Content/Images/logo2.png" class="logo">
     <p class="lead">BMT Group is a consultancy firm specialized in quantitative risk management for financial institutions. Through their extensive expertise, proven track record and motivation to perform, our consultants help companies overcome the challenges in risk and regulatory management.  Solving the greeks is what we do!</p>
     <a href="#delta">
         <img border="0" src="https://image.flaticon.com/icons/svg/36/36669.svg" width="50" height="50">
@@ -60,7 +60,7 @@
 
 <div class="jumbotron selection" id="contact">
     <h2>Contact</h2>
-
+    <p>Send us a message here : <a href="mailto:info@bmtgroup.nl" target="_top">info@bmtgroup.nl</a> or fill the form below</p>
     <address>
         @using (Html.BeginForm("email", "Home", FormMethod.Post))
         {
@@ -92,7 +92,7 @@
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
 
-                                <button type="submit" class="btn btn-xl" onclick="this.form.submit();">Send Message</button>
+                                <button type="submit" class="btn" onclick="this.form.submit();">Send Message</button>
 
                             </div>
                         </div>
