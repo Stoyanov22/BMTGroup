@@ -12,8 +12,8 @@
 
 <div class="jumbotron selection" id="delta">
     <h2>Delta</h2>
+    <h3>We understand the challenges you are facing and we bring change to your risk management organization</h3>
     <p>
-        We understand the challenges you are facing and we bring change to your risk management organization
         BMT Group provides consultancy services in risk management governance, financial regulations, model creation and validation.
         We help companies organize their risk organization and create the framework fitting their business model and risk strategies. We build scorecards and help you diversify and allocate risks within your organization.
         Our services include model development and model validation of credit and market risk models. We provide actuarial analysis and modeling for pension funds and insurers.
@@ -30,8 +30,8 @@
 
 <div class="jumbotron selection" id="theta">
     <h2>Theta</h2>
+    <h3>We deliver highly specialized experts in a flexible mix of different experience levels at the time you need them</h3>
     <p>
-        We deliver highly specialized experts in a flexible mix of different experience levels at the time you need them
         The consultancy base of BMT Group is a flexible mix of experts with various professional experiences. All of our consultants have at least a Master degree in quantitative sciences and a proven record of expertise. But the most important is that they are all very hands-on, proactive to discuss with you what the best solution to your needs is and very motivated to achieve your common goals.
     </p>
     <a href="#vega">
@@ -45,8 +45,8 @@
 
 <div class="jumbotron selection" id="vega">
     <h2>Vega</h2>
+    <h3>We match the high volatility and demand for quantitative professionals with a constant supply of experts</h3>
     <p>
-        We match the high volatility and demand for quantitative professionals with a constant supply of experts
         We understand that the regulatory environment and focus on risk management in the financial sector drives up the demand for risk quantitative professionals. BMT Group matches that volatile demand by a constant supply of the risk consultants. We achieve that by working with an extensive network of local recruitment partners and universities in Central and Eastern Europe.
     </p>
     <a href="#contact">
@@ -62,11 +62,11 @@
     <h2>Contact</h2>
     <p>Send us a message here : <a href="mailto:info@bmtgroup.nl" target="_top">info@bmtgroup.nl</a> or fill the form below</p>
     <address>
-        @using (Html.BeginForm("email", "Home", FormMethod.Post))
+        @using (Html.BeginForm("email", "Home", FormMethod.Post, new { @class = "submitForm" }))
         {
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" id="contactForm">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -91,9 +91,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-
-                                <button type="submit" class="btn" onclick="this.form.submit();">Send Message</button>
-
+                                <button type="submit" class="btn submitBtn" onclick="this.form.submit();">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -108,3 +106,4 @@
 </div>
 
 <script type="text/javascript" src="~/Scripts/navigation.js"></script>
+<script type="text/javascript" src="~/Scripts/formValidator.js"></script>

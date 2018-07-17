@@ -17,6 +17,10 @@ namespace BMTGroup.Controllers
         {
             var name = form["sname"];
             var email = form["semail"];
+            if(email == "")
+            {
+                return RedirectToAction("Index");
+            }
             var messages = form["smessage"];
             var phone = form["sphone"];
             var x = await SendEmail(name, email, messages, phone);

@@ -26,6 +26,14 @@ textarea {
     max-width: 280px;
 }
 
+h2 {
+    color: #D37E16;
+}
+
+h3 {
+    color: #1661A4;
+}
+
 .selection {
     border-top: solid;
     border-top-width: 20px;
